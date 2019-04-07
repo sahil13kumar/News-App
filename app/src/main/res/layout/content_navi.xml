@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NaviActivity"
+    tools:showIn="@layout/app_bar_navi"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:id="@+id/liveTv"
+        android:text="INDIAN NEWS LIVE TV"
+        android:textStyle="bold"
+        android:background="#f7f137"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/asia"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/asia" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.3"
+            android:id="@+id/america"
+            android:background="@drawable/ameriaca"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.3"
+            android:id="@+id/africa"
+            android:background="@drawable/africa"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/europe"
+            android:background="@drawable/europe"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.3"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/austrelia"
+            android:background="@drawable/austrelia"/>
+
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="140dp"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:id="@+id/america"-->
+            <!--android:text="AMERICA"/>-->
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/liveTv"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#f6f03b"/>-->
+
+</LinearLayout>
